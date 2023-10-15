@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(pic4.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.menu a:hover{
+    width: 90%;
+    content: '';
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s;
+    
+}
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    background-color: indianred; 
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.register a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
+.h-text{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.h-text a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: indianred;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+ .h-text a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
